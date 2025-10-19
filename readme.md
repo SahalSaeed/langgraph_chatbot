@@ -7,7 +7,6 @@ An intelligent chatbot powered by **Adaptive RAG (Retrieval-Augmented Generation
 [![Streamlit](https://img.shields.io/badge/Streamlit-1.31.0-red)](https://streamlit.io/)
 [![License](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
 
----
 
 ##  Key Features
 
@@ -25,7 +24,6 @@ An intelligent chatbot powered by **Adaptive RAG (Retrieval-Augmented Generation
 - **Listing Queries**: "List papers that used drone-based detection"
 - **Statistical Analysis**: "Which paper achieved the highest accuracy?"
 
----
 
 ##  Architecture
 
@@ -66,7 +64,6 @@ An intelligent chatbot powered by **Adaptive RAG (Retrieval-Augmented Generation
 └──────────────────┘
 ```
 
----
 
 ##  Quick Start
 
@@ -127,7 +124,6 @@ streamlit run app.py
 http://localhost:8501
 ```
 
----
 
 ##  Usage Examples
 
@@ -185,8 +181,6 @@ Total papers found: 3"
 ```
 
 
----
-
 ##  Configuration
 
 ### Hybrid Retrieval Weights
@@ -220,7 +214,6 @@ llm = ChatOpenAI(
 )
 ```
 
----
 
 ##  Testing
 
@@ -241,7 +234,6 @@ python testing/test_cross_document.py --interactive
 python testing/main.py
 ```
 
----
 
 ##  Key Technologies
 
@@ -265,7 +257,6 @@ python testing/main.py
 - **Streamlit** - Interactive web UI
 - **Python-dotenv** - Environment management
 
----
 
 ##  What Makes This Special
 
@@ -305,7 +296,6 @@ Different query types get optimized prompts:
 - Aggregative → Groups and counts patterns
 - Listing → Filters and structures results
 
----
 
 ##  Advanced Usage
 
@@ -339,7 +329,6 @@ from main import save_graph_image
 save_graph_image(app, "workflow.png")
 ```
 
----
 
 ##  Troubleshooting
 
@@ -385,7 +374,6 @@ sudo apt-get install tesseract-ocr  # Linux
 brew install tesseract              # macOS
 ```
 
----
 
 ##  Future Enhancements
 
@@ -402,7 +390,6 @@ brew install tesseract              # macOS
 - [ ] **Paper Upload UI** - Dynamic indexing without rebuild
 - [ ] **Export Reports** - PDF/Word generation
 
----
 
 ##  Acknowledgments
 
@@ -418,8 +405,6 @@ brew install tesseract              # macOS
 - [LangChain RAG Tutorial](https://python.langchain.com/docs/tutorials/rag/)
 - [Adaptive RAG Paper](https://arxiv.org/abs/2403.14403)
 - Research in information retrieval and NLP
-
----
 
 
 ##  Use Cases
@@ -442,7 +427,6 @@ brew install tesseract              # macOS
 - Research skill development
 - Citation practice
 
----
 
 ##  Security & Privacy
 
@@ -470,8 +454,6 @@ chmod 600 .env
 OPENAI_API_KEY_DEV=...
 OPENAI_API_KEY_PROD=...
 ```
-
----
 
 
 ##  Interactive Demo
@@ -508,9 +490,6 @@ What were the computational requirements?
 ```
 
 
----
-
-
 ##  FAQ
 
 ### Q: Can I use this with papers in other domains?
@@ -539,11 +518,10 @@ What were the computational requirements?
 ### Q: Can I add web search?
 **A:** Yes! The Router.py is designed for extensibility. Add web search by implementing a search node and updating routing logic.
 
----
 
 <div align="center">
 
-**Built with ❤️ using LangChain, LangGraph, and OpenAI**
+**ありがとう~!! :)**
 
 
 </div>
