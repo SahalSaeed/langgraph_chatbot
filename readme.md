@@ -504,9 +504,6 @@ What were the computational requirements?
 ### Q: How many papers can it handle?
 **A:** Tested with 14 papers (~200 pages). Can scale to 50+ papers with sufficient RAM. For 100+ papers, consider using a cloud vector database.
 
-### Q: Can I use GPT-3.5-turbo instead of GPT-4o-mini?
-**A:** Yes, but validation quality may decrease. GPT-4o-mini offers better reasoning for grading tasks.
-
 ### Q: Does it work offline?
 **A:** Partially. Document processing and retrieval work offline, but generation requires OpenAI API access.
 
