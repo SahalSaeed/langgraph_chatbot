@@ -7,6 +7,12 @@ An intelligent chatbot powered by **Adaptive RAG (Retrieval-Augmented Generation
 [![Streamlit](https://img.shields.io/badge/Streamlit-1.31.0-red)](https://streamlit.io/)
 [![License](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
 
+## Demo Video
+
+
+https://github.com/user-attachments/assets/ec71440a-2553-4366-abe1-7473922a0820
+
+
 
 ##  Key Features
 
